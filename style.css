@@ -12,7 +12,6 @@
 }
 
 body{
-    box-sizing: border-box;
     background-color: pink;
     
     font-family: 'Quicksand', sans-serif;
@@ -64,15 +63,17 @@ body{
 
 .sidebar ul li a{
     color: #725C5C;
-    padding: 0 20px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.425);
+    padding: 12px;
+    padding-right: 100px
+    
 
 }
 .sidebar ul li a:hover{
     color: #000000;
     margin-left: 20px;
     transition: 0.4s;
-    background-color: #FDF1EB;
+    background-color: #ffd1bb;
+    border-radius: 10px;
 }
 
 /* Sidebar termina aqui  */
@@ -85,17 +86,121 @@ header{
     background-color: #FDF1EB;
     color: #725C5C;
     font-family: 'Roboto', sans-serif;
-    padding-left: 25%;
-    padding-right: 5%;
+    padding-left: 300px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 nav{
+    background-color: #FDF1EB;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    width: 90%;
+    margin: auto;
 }
 
+.nav-esquerda-titulo{
+    font-weight: 900;
+    margin-top: 8px;
+}
 
+.nav-esquerda-subtitulo{
+    font-size: 14px;
+}
 
+.nav-centro{
+    margin: auto;
+}
+
+.nav-centro-botao{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-centro-botao:hover{
+    text-decoration: underline;
+}
+
+.nav-centro-botao-imagem1{
+    padding: 5px;
+    margin: auto;
+}
+
+.nav-centro-botao-texto{
+    margin: auto;
+    font-size: 14px;
+}
+
+.nav-centro-botao-imagem2{
+    margin: auto;
+}
+
+.nav-direita-texto{
+
+}
+
+.nav-direita-texto-titulo{
+    text-align: end;
+}
+
+.nav-direita-imagemdiv{
+    padding: 5px;
+}
+
+.nav-direita-imagem{
+    width: 50px;
+    border-radius: 30px;
+}
+
+/* Header termina aqui  */
+
+/* Main comeaça aqui  */
+
+main{
+    width: 100%;
+    margin: auto;
+    background-color: #E5E5E5;
+    color: #725C5C;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 300px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main nav{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    width: 90%;
+    margin: auto;
+}
+
+.corpo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.corpo1-texto{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #ED7839;
+}
+
+/* Main termina aqui  */
 
 
 
