@@ -14,3 +14,18 @@ function leiaMais(){
         btnLeiaMais.innerHTML = 'Leia Menos';
     }
 }
+
+var btn = document.querySelector('#show-or-hide');
+var form =document.querySelector('#form');
+
+btn.addEventListener('click',function(){
+
+    if(form.style.display === 'block'){
+        form.style.display = 'none';
+    }
+
+    else{
+        form.style.display = 'block';
+    }
+
+});
