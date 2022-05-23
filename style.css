@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: pink;
+    background-color: white;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -123,6 +123,7 @@ nav{
 .nav-centro-botao{
     display: flex;
     flex-direction: row;
+    background-color: #FDF1EB;
     gap: 5px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.418);
@@ -172,7 +173,7 @@ nav{
 main{
     width:100%;
     margin: auto;
-    background-color: #E5E5E5;
+    background-color: white;
     color: #725C5C;
     font-family: 'Roboto', sans-serif;
     padding-left: 300px;
@@ -183,12 +184,12 @@ main{
 }
 
 main nav{
-    background-color: #E5E5E5;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 35px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 10px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.24);
@@ -204,20 +205,24 @@ main nav{
 
 .sessao1-corpo1-texto{
     font-weight: 400;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
     color: #ED7839;
+    padding: 10px;
 }
 
 .sessao1-corpo2{
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .sessao1-corpo2-botoes{
     display: flex;
     flex-direction: row;
     padding: 8px;
-    gap: 10px;
+    gap: 16px;
+
 }
 
 .sessao1-corpo2-botao1{
@@ -226,7 +231,7 @@ main nav{
     gap: 5px;
     color: #E5E5E5;
     border-radius: 10px;
-    padding: 7px;
+    padding: 14px;
     background-color: #ED7839;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.233);
     border: 1px solid rgba(0, 0, 0, 0.301);
@@ -235,21 +240,29 @@ main nav{
 
 .sessao1-corpo2-botao1:hover{
     text-decoration: underline;
+    background-color: #ff925f;
+}
+
+.sessao1-corpo2-botao2:hover{
+    background-color: #ff925f;
+}
+
+.sessao1-corpo2-botao3:hover{
+    background-color: #ff925f;
 }
 
 .sessao1-corpo2-botao2{
     border-radius: 10px;
-    padding: 7px;
+    padding: 14px;
     background-color: #ED7839;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.233);
     border: 1px solid rgba(0, 0, 0, 0.301);
     cursor: pointer;
 }
 
-
 .sessao1-corpo2-botao3{
     border-radius: 10px;
-    padding: 7px;
+    padding: 14px;
     background-color: #ED7839;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.233);
     border: 1px solid rgba(0, 0, 0, 0.301);
@@ -258,6 +271,7 @@ main nav{
 
 .sessao1-corpo2-texto{
     margin: auto;
+    font-size: 20px;
 }
 
 .sessao2{
@@ -296,6 +310,12 @@ main nav{
     padding: 25px;
 }
 
+.sessao2-corpo2-paragrafo3{
+    text-align: justify;
+    padding: 25px;
+    color: #5c57577c;
+}
+
 .sessao3{
     margin: auto;
     color: #725c5c;
@@ -332,8 +352,74 @@ main nav{
 #mais{
     display: none;
 }
+
+.sessao4{
+    margin: auto;
+    color: #725c5c;
+    font-family:'Quicksand', sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+.sessao4-corpo2{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.411);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.sessao4-titulo{
+    background-color: #FDF1EB;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.sessao4-corpo2-titulo{
+    color: #ED7839;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.sessao4-corpo2-subtitulo{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.sessao4-corpo2-paragrafo{
+    padding: 15px;
+}
+
+.sessao4-corpo2-blocos{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    gap: 15px;
+}
 /* Main termina aqui  */
 
+/* Footer termina aqui  */
+
+.rodape{
+    margin: auto;
+    padding-left: 400px;
+    width: 100%;
+    padding-right: 100px;
+    padding-top: 15px;
+    
+}
+
+.rodape-imagem{
+    margin: center;
+    width: 100%;
+    
+}
+
+/* Footer termina aqui  */
 
 
 
